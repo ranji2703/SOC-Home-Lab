@@ -1,25 +1,45 @@
-# SOC-Home-Lab
 # SOC Home Lab
 
-## Tools
+A hands-on Security Operations Center (SOC) lab built to practice threat detection, log analysis, incident investigation, and threat hunting using Splunk, Sysmon, Snort, PowerShell, and vulnerable web applications.
+
+## Objectives
+
+- Build a home SOC environment
+- Simulate cyber attacks
+- Collect and analyze logs
+- Create detection queries
+- Perform threat hunting investigations
+
+## Tools Used
 
 - Splunk Enterprise
-- Windows Server
-- Kali Linux
 - Sysmon
 - Snort IDS
+- PowerShell Logging
+- Kali Linux
+- Windows Server
+- DVWA
 
 ## Architecture
 
-Kali Linux
-↓
-Windows Server
-↓
-Splunk Enterprise
+![Architecture](Architecture/soc-home-lab-architecture.png)
 
-## Learning Outcomes
+## Repository Structure
 
-- Log Collection
+```text
+Queries/
+Labs/
+Reports/
+Screenshots/
+```
+
+## Key Skills Demonstrated
+
+- Threat Hunting
+- Incident Investigation
+- Log Analysis
 - Detection Engineering
-- Alerting
-- Dashboard Creation
+- SIEM Monitoring
+- Endpoint Monitoring
+- Network Security Monitoring
+```
